@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+  font-weight: 300;
+}
+
+.card-1 {
+  width: 350px;
+  /* border: 1px solid #444; */
+  background-color: rgba(211, 211, 211, 0.5);
+  background-color: #f6f8fa;
+  padding: 15px 25px;
+  border-radius: 7px;
+}
+
+.forget:link {
+  font-size: 14px;
+}
+
+.card-white {
+  background-color: white;
+  border: 1px solid gainsboro;
+}
+
+.big-text {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  border-radius: 5px;
+  padding: 3px 7px;
+  border: 1px solid grey;
+}
+
+input[type="submit"] {
+  background-color: green;
+  background-color: #2da44e;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 7px;
+}
+
+input[type="submit"]:hover {
+  background-color: #116329;
+}
+
+input:focus {
+  outline: 2px solid blue;
+}
+
+footer {
+  font-size: 12px;
+}
+
+.color-black:link,
+.color-black:visited {
+  color: #444 !important;
+}

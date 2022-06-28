@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.heading-2 {
+  font-family: "Space Grotesk" sans-serif;
+  font-family: "Rubik Mono One", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.img {
+  transition: linear 1s 2s;
+  transition-delay: 0.2s;
+}
+
+img:hover {
+  transform: rotate(-10deg);
+  transform: skew(10px);
+}
+
+.img-1 {
+  grid-row: 1/3;
+  align-self: center;
+}
+
+.img-2 {
+  align-self: end;
+}
+.img-3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.small-img {
+  display: inline-block;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: -17px;
+}
+
+hr {
+  border-bottom: 1px solid white;
+}
+
+.size {
+  font-size: 30px;
+}
+
+.size-2 {
+  font-size: 38px;
+}
+
+.div {
+  font-family: "Rubik Puddles", cursive;
+}
+
+footer {
+  font-size: 14px;
+}
+
+.rubik-mono {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+input[type="text"] {
+  width: 96.5%;
+  padding: 10px 0;
+  background-color: black;
+}
+
+input[type="submit"] {
+  padding: 10px 10px;
+  margin-left: -10px;
+}
+
+input::placeholder {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+}
+
+.hrr {
+  width: 55%;
+}
+
+.animate {
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 2s;
+  /* animation-duration: ; */
+}
